@@ -1,0 +1,28 @@
+
+.secHeading {
+    text-align: center;
+    margin: auto;
+    float: none;
+}
+.texts {
+    font-size: 17px !important;
+    padding: 20px;
+}
+
+.centerizeCol {
+    float: none!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.panelGroup {
+    margin-bottom: 20px;
+}
+.panelGroup .panel {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+.panelBody {
+    padding: 12px !important;
+    font-size: 11px;
+}

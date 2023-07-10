@@ -1,0 +1,248 @@
+.column-1 div{
+    margin-top: 51px;
+  }
+  .column-1 div img{
+    height: 412px;
+      width: 100%;
+    margin: auto;
+  display: flex;
+justify-content: center;
+align-items:center;
+  }
+ .column-2 h2{
+    font-size: 33px !important;
+    text-align: start !important;
+    margin-left: 0px !important ;
+    margin-top: 14px;
+    /* text-align: start !important; */
+    font-weight: 700;
+    
+}
+.column-2 p{
+    font-size: 20px;
+    text-align: justify;
+}
+  .column-3 h2{
+    font-size: 35px ;
+    text-align: start !important;
+    margin-left: 0px !important;
+    font-weight: 700;
+
+    
+}
+.column-3 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+    .column-3 .black{
+        margin-top: 10px;
+    }
+
+        
+    .column-3 div{
+        padding-left: 35px;
+    }
+     .column-3 .divpaddingremove{
+      padding-left: 0px !important;
+    }
+    .ourtract-btn{
+        padding-left: 0px !important;
+    }
+    
+.column-4 img{
+    height: 412px;
+    width: 80%;
+    margin: auto;
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-btn{
+    background-color:#a82525;;
+    padding: 14px 30px;
+    font-size: 11px;
+    color: white;
+    /* font-family: 'Montserrat', sans-serif; */
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 10px;
+    
+  }
+  .all-btn:hover{
+    background-color: black;
+  }
+  .all-btn:last-child{
+    margin-left: 3px;
+  }
+  .black{
+    background-color: rgb(36, 32, 32);
+  }
+  .black:hover{
+    background-color: black;
+  }
+
+  .grid {
+    display: grid;
+    gap: 12px;
+    position: relative;
+  }
+  .grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .container {
+   
+    max-width: 1115px;
+    margin: 0 auto;
+  }
+  
+.section-para{
+    font-size: 20px;
+    line-height: 1.7;
+     text-align: center;
+  }
+  .section-heading h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    font-size: 33px;
+  }
+  @media only screen and (max-width: 600px) {
+    
+    .section-heading h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 0px !important;
+      font-weight: 900;
+      line-height: 40px !important;
+      font-size: 33px;
+    }
+    .section-para{
+      font-size: 17px !important;
+      line-height: 1.7;
+       text-align: center;
+       margin-bottom: 0px !important;
+    }
+    .grid {
+      display: grid;
+     
+    }
+    .grid-two-column {
+      grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .section-ourtrack{
+      height: auto;
+      padding-bottom: px;
+    }
+    .column-1 div{
+      margin-top: 0px !important;
+    }
+    .column-1 div img{
+      height: auto;
+        width: 100%;
+      margin: auto;
+    display: flex;
+  align-items:center;
+    }
+    .column-2 h2{
+   
+      font-size: 20px !important;
+      text-align: center !important;
+      margin-left: 0px !important;
+      margin-top: 0px !important;
+      font-weight: 700;
+      padding: 4px;
+  }
+
+  .column-2 p{
+    font-size: 15px !important;
+    text-align: justify;
+    padding: 4px;
+}
+.all-btn{
+  background-color:#a82525;;
+  padding: 14px 30px;
+  font-size: 11px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 10px;
+  
+}
+.openai-btn .black{
+  margin-left: 3px;
+  margin-top: 21px;
+}
+.all-btn:hover{
+  background-color: black;
+}
+.all-btn:last-child{
+  margin-left: 3px;
+}
+.black{
+  background-color: rgb(36, 32, 32);
+}
+.black:hover{
+  background-color: black;
+}
+.openai-btn {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 20px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding: 0px 0px !important;
+}
+.column-3 div{
+  padding-left: 0px;
+}
+.column-3 h2{
+   
+  font-size: 20px !important;
+  text-align: center !important;
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+  font-weight: 700;
+  padding: 4px;
+}
+
+
+.column-3 p{
+  font-size: 15px !important;
+  text-align: justify;
+  padding: 4px;
+  margin-bottom:0px !important ;
+}
+.column-4 img{
+  height: auto;
+  width: 100%;
+
+  margin: 0px !important;
+  margin-top: 25px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 900px)  {
+    .column-3 p{
+      font-size: 20px !important ;
+      text-align: justify !important;
+      margin: 5px;
+    }
+    .column-2 p{
+      font-size: 20px !important ;
+      text-align: justify !important;
+      margin: 5px;
+    }
+
+  }

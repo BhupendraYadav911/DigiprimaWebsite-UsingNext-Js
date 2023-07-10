@@ -1,0 +1,211 @@
+.section-fintech{
+  padding-top:5px !important ;
+  padding-bottom:0px !important ;
+}
+
+  .column-3 h2{
+    font-size: 35px ;
+    text-align: start !important;
+    margin-left: 0px !important;
+    font-weight: 700;
+
+    
+}
+.column-3 p{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+    .column-3 .black{
+        margin-top: 10px;
+    }
+
+        
+    .column-3 div{
+        padding-left: 35px;
+    }
+    .ourtract-btn{
+        padding-left: 0px !important;
+    }
+    
+.column-4 img{
+    height: 412px;
+    width: 100%;
+
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.all-btn{
+    background-color:#a82525;;
+    padding: 14px 30px;
+    font-size: 11px;
+    color: white;
+    /* font-family: 'Montserrat', sans-serif; */
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 10px;
+    
+  }
+  .all-btn:hover{
+    background-color: black;
+  }
+  .all-btn:last-child{
+    margin-left: 3px;
+  }
+  .black{
+    background-color: rgb(36, 32, 32);
+  }
+  .black:hover{
+    background-color: black;
+  }
+
+  .grid {
+    display: grid;
+    gap: 12px;
+    position: relative;
+  }
+  .grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .container {
+   
+    max-width: 1115px;
+    margin: 0 auto;
+  }
+  
+.section-para{
+    font-size: 20px;
+    line-height: 1.7;
+     text-align: center;
+  }
+
+  hr.left-line {
+    background-color: black;
+    border: 1px solid black;
+    width: 100px !important;
+    margin: 19px 0;
+}
+/* .fintech-li li{
+    margin: 3px;
+    background-color: red;
+} */
+
+@media only screen and (max-width: 600px) {
+  .column-3 h2{
+    font-size: 23px !important;
+    text-align: center !important;
+    /* margin-left: 0px !important ; */
+    margin-top: 14px;
+    font-weight: 700;
+    padding: 4px;
+  }
+  hr.left-line {
+    background-color: black;
+    border: 1px solid black;
+    width: 100px !important;
+    margin: 19px 0;
+    margin-left: 30px;
+  }
+  .grid {
+    display: grid;
+    /* gap: 12px;
+    position: relative; */
+  }
+  .grid-two-column {
+    grid-template-columns: repeat(1, 1fr) !important;
+    /* grid-auto-rows: 530px; */
+  }
+  .column-3 div{
+    padding-left: 0px !important;
+}
+.column-3 p{
+ 
+  font-size: 15px !important;
+  text-align: justify !important;
+  margin: 5px !important;
+}
+.all-btn {
+  background-color: #a82525;
+  padding: 10px 10px !important;
+  font-size: 11px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 10px;
+}
+.ourtract-btn {
+  display: flex;
+  justify-content: center;
+ 
+  gap: 4px;
+  margin-top: 20dpx;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding: 0px 0px !important;
+}
+.column-4 img{
+  /* height: 412px; */
+  width: 100%;
+
+  /* margin-top: 0px !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.section-fintech{
+  padding-top:5px !important ;
+  padding-bottom:0px !important ;
+}
+   
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+.column-3 h2{
+  font-size: 28px !important;
+    text-align: start !important;
+    margin-left: 0px !important;
+    margin-top: 30px !important;
+    font-weight: 700;
+    padding: 4px;
+}
+.section-fintech{
+  padding-top:5px !important ;
+}
+.column-3 p{
+ 
+  font-size: 20px !important;
+  text-align: justify !important;
+  margin: 5px;
+}
+.all-btn {
+  background-color: #a82525;
+  padding: 10px 10px !important;
+  font-size: 11px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+.all-btn:hover{
+  background-color: black;
+}
+.all-btn:last-child{
+  margin-left: 3px;
+}
+.black{
+  background-color: rgb(36, 32, 32);
+}
+.black:hover{
+  background-color: black;
+}
+
+  
+}

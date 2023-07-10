@@ -1,0 +1,140 @@
+.billing {
+       background: linear-gradient(90deg, #224a7d 50%, #eff1f3 50%) !important;
+    box-sizing: border-box;
+    }
+    
+    .billing h3 {
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    .billing p, p.banking {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    }
+    
+    .row {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    }
+
+    .tabButton{
+        background-color:#a82525;;
+        padding: 14px 30px;
+        font-size: 11px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+        border-radius: 10px;
+        
+      }
+      .tabButton:hover{
+        background-color: black;
+      }
+      .tabButton:last-child{
+        margin-left: 3px;
+      }
+    
+    .tabContent {
+       color: #fff;
+      cursor: pointer;    
+    font-size: 17px;
+   padding: 12px;
+    }
+    
+    .font-28px1, .panel-title {
+    font-size: 25px;
+    color: white;
+    }
+    
+    p.banking, .sect-found, ul.found {
+    color: white;
+    }
+    
+    .nav-tabs {
+    border-bottom: none !important;
+    }
+      
+    .panel-group {
+    margin-bottom: 20px;
+    }
+    
+    .panel-group .panel {
+    margin-bottom: 15px;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    background-color: transparent;
+    }
+    
+    .panel .panel-heading, .panel-default > .panel-heading, .accordion-button:focus {
+    border-color: none !important;
+    }
+    
+    .panel .panel-heading, .panel-default > .panel-heading {
+    position: relative;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 0;
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    }
+    
+    .panel-group .panel-heading {
+    border-bottom: 0;
+    }
+    
+    .panel-title a {
+    display: block;
+    color: #212121 !important;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 15px 30px;
+    border-radius: 0;
+    }
+    
+    .accordion-header {
+    margin-left: 12px !important;
+    }
+    
+    .data-para {
+    text-align: justify;
+    margin-left: 10px;
+    }
+    
+    .data-ul {
+    margin-top: 20px;
+    }
+    
+    .health-pdding {
+    padding: 0px 17px;
+    margin-left: -13px;
+    }
+    
+    .solution-color {
+    display: block;
+    color: #212121;
+    background-color: #eff1f3 !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .Accordion{
+            display: none;
+        }
+        .billing {
+            background: linear-gradient(90deg, #224a7d 100%, #eff1f3 100%) !important;
+         box-sizing: border-box;
+         }
+         .tabButton{
+           margin: 5px;
+            
+          }
+       
+      }
+    

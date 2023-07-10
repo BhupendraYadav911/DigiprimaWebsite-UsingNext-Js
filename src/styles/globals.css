@@ -1,0 +1,19 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 10;
+    background-color :rgb(32, 31, 31) ;
+  
+    overflow: hidden;
+  }
+
+
+  

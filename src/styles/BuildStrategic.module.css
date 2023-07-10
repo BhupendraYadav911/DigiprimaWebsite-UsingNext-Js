@@ -1,0 +1,60 @@
+.defaultBag {
+    background: radial-gradient(circle, #2f8be1, #2e9ce1, #2cb0e1, #2f91e1, #3274e1)!important;
+    color: #fff;
+}
+
+.allBtn{
+    background-color:#a82525;;
+    padding: 14px 30px;
+    font-size: 11px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: auto;
+    
+  } 
+   .allBtn:hover{
+    background-color: #fff;
+    color: #000;
+  }
+
+
+
+.sectionHeading{
+    text-align: center;
+    margin: auto;
+    float: none;
+    
+}
+ /* .white-color h5 {
+    color: #fff!important;
+} */
+.fontText {
+    font-size: 26px!important;
+    margin-top: 0px;
+}
+/* .mb-30 {
+    margin-bottom: 30px;
+}
+.font-600 {
+    font-weight: 600;
+} */
+/* .mt-10 {
+    margin-top: 9px!important;
+} */
+.textHd {
+    font-size: 14px!important;
+    line-height: 25px!important;
+}
+/* .freeConsultBtn {
+    background-color: #fff!important;
+    color: #2f8be1!important;
+    border-radius: 50px!important;
+    padding: 10px 20px!important;
+    font-weight: 700!important;
+    font-size: 20px!important;
+    margin-right: 30px!important;
+    text-transform: uppercase;
+} */
